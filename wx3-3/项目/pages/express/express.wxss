@@ -1,0 +1,10 @@
+/* pages/express/express.wxss */
+.container{
+    align-items: center;
+}
+
+.container text{
+   color: #f90;
+   margin: 40rpx;
+   font-size: 28px;
+}

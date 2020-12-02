@@ -1,0 +1,4 @@
+<!--pages/express/express.wxml-->
+<view class="container">
+  <text>快递查询界面</text>
+</view>

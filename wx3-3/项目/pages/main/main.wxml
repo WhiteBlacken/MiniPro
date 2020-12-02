@@ -1,0 +1,11 @@
+<view class="content">
+
+  <text style='text-align: center; font-size: 36rpx;'>您好，{{username}}！</text>
+  <view class="btn-area">
+    <button class='btn-style' bindtap='goExpress'> 快递查询 </button>
+    <navigator redirect url="../login/login">
+      <button class='btn-style'> 注销本次登录 </button>
+    </navigator>
+    <button class='btn-style' disabled="{{disabled}}" style="background-color:{{delBtnBgBgColor}}" loading="{{btnLoading}}" bindtap='delRegInfo'> {{delBtnTxt}} </button>
+  </view>
+</view>
